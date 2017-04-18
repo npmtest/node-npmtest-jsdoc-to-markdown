@@ -1,5 +1,7 @@
-<html lang="en"><head>
-    <title>Code coverage report for node-npmtest-jsdoc-to-markdown/jsdoc-to-markdown/lib/jsdoc-to-markdown.js</title>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for node-npmtest-jsdoc-to-markdown/node_modules/jsdoc-to-markdown/lib/jsdoc-to-markdown.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,7 +194,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-jsdoc-to-markdown">npmtest-jsdoc-to-markdown (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-jsdoc-to-markdown/jsdoc-to-markdown/lib/jsdoc-to-markdown.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-jsdoc-to-markdown/node_modules/jsdoc-to-markdown/lib/jsdoc-to-markdown.js</span></h1>
     <h2>
         
         Statements: <span class="metric">15.79% <small>(6 / 38)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -208,11 +210,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> » <a href="index.html">node-npmtest-jsdoc-to-markdown/jsdoc-to-markdown/lib/</a> » jsdoc-to-markdown.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-jsdoc-to-markdown/node_modules/jsdoc-to-markdown/lib/</a> &#187; jsdoc-to-markdown.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tbody><tr><td class="line-count">1
+<tr><td class="line-count">1
 2
 3
 4
@@ -604,14 +606,14 @@ class JsdocToMarkdown {
    * &gt; jsdoc2md.render({ files: 'lib/*.js' }).then(console.log)
    * ```
    */
-  render <span class="fstat-no" title="function not covered">(options) {</span>
-<span class="cstat-no" title="statement not covered">    options = options || {}</span>
-<span class="cstat-no" title="statement not covered">    const dmdOptions = new DmdOptions(options)</span>
-<span class="cstat-no" title="statement not covered">    if (options.data) {</span>
-<span class="cstat-no" title="statement not covered">      return dmd.async(options.data, dmdOptions)</span>
+  render <span class="fstat-no" title="function not covered" >(options) {</span>
+<span class="cstat-no" title="statement not covered" >    options = options || {}</span>
+<span class="cstat-no" title="statement not covered" >    const dmdOptions = new DmdOptions(options)</span>
+<span class="cstat-no" title="statement not covered" >    if (options.data) {</span>
+<span class="cstat-no" title="statement not covered" >      return dmd.async(options.data, dmdOptions)</span>
     } else {
-<span class="cstat-no" title="statement not covered">      return this.getTemplateData(options)</span>
-        .then(templateData =&gt; <span class="cstat-no" title="statement not covered">dmd.async(templateData, dmdOptions))</span>
+<span class="cstat-no" title="statement not covered" >      return this.getTemplateData(options)</span>
+        .then(templateData =&gt; <span class="cstat-no" title="statement not covered" >dmd.async(templateData, dmdOptions))</span>
     }
   }
 &nbsp;
@@ -625,13 +627,13 @@ class JsdocToMarkdown {
    * @example
    * const docs = jsdoc2md.renderSync({ files: 'lib/*.js' })
    */
-  renderSync <span class="fstat-no" title="function not covered">(options) {</span>
-<span class="cstat-no" title="statement not covered">    options = options || {}</span>
-<span class="cstat-no" title="statement not covered">    const dmdOptions = new DmdOptions(options)</span>
-<span class="cstat-no" title="statement not covered">    if (options.data) {</span>
-<span class="cstat-no" title="statement not covered">      return dmd(options.data, dmdOptions)</span>
+  renderSync <span class="fstat-no" title="function not covered" >(options) {</span>
+<span class="cstat-no" title="statement not covered" >    options = options || {}</span>
+<span class="cstat-no" title="statement not covered" >    const dmdOptions = new DmdOptions(options)</span>
+<span class="cstat-no" title="statement not covered" >    if (options.data) {</span>
+<span class="cstat-no" title="statement not covered" >      return dmd(options.data, dmdOptions)</span>
     } else {
-<span class="cstat-no" title="statement not covered">      return dmd(this.getTemplateDataSync(options), dmdOptions)</span>
+<span class="cstat-no" title="statement not covered" >      return dmd(this.getTemplateDataSync(options), dmdOptions)</span>
     }
   }
 &nbsp;
@@ -643,10 +645,10 @@ class JsdocToMarkdown {
    * @fulfil {object[]} - the json data
    * @category async
    */
-  getTemplateData <span class="fstat-no" title="function not covered">(options) {</span>
-<span class="cstat-no" title="statement not covered">    options = options || {}</span>
-<span class="cstat-no" title="statement not covered">    const jsdocParse = require('jsdoc-parse')</span>
-<span class="cstat-no" title="statement not covered">    return this.getJsdocData(options)</span>
+  getTemplateData <span class="fstat-no" title="function not covered" >(options) {</span>
+<span class="cstat-no" title="statement not covered" >    options = options || {}</span>
+<span class="cstat-no" title="statement not covered" >    const jsdocParse = require('jsdoc-parse')</span>
+<span class="cstat-no" title="statement not covered" >    return this.getJsdocData(options)</span>
       .then(jsdocParse)
   }
 &nbsp;
@@ -657,11 +659,11 @@ class JsdocToMarkdown {
    * @return {object[]}
    * @category sync
    */
-  getTemplateDataSync <span class="fstat-no" title="function not covered">(options) {</span>
-<span class="cstat-no" title="statement not covered">    options = options || {}</span>
-<span class="cstat-no" title="statement not covered">    const jsdocParse = require('jsdoc-parse')</span>
-<span class="cstat-no" title="statement not covered">    const jsdocData = this.getJsdocDataSync(options)</span>
-<span class="cstat-no" title="statement not covered">    return jsdocParse(jsdocData, options)</span>
+  getTemplateDataSync <span class="fstat-no" title="function not covered" >(options) {</span>
+<span class="cstat-no" title="statement not covered" >    options = options || {}</span>
+<span class="cstat-no" title="statement not covered" >    const jsdocParse = require('jsdoc-parse')</span>
+<span class="cstat-no" title="statement not covered" >    const jsdocData = this.getJsdocDataSync(options)</span>
+<span class="cstat-no" title="statement not covered" >    return jsdocParse(jsdocData, options)</span>
   }
 &nbsp;
   /**
@@ -677,9 +679,9 @@ class JsdocToMarkdown {
    * @fulfil {object[]}
    * @category async
    */
-  getJsdocData <span class="fstat-no" title="function not covered">(options) {</span>
-<span class="cstat-no" title="statement not covered">    const jsdocOptions = new JsdocOptions(options)</span>
-<span class="cstat-no" title="statement not covered">    return jsdocApi.explain(jsdocOptions)</span>
+  getJsdocData <span class="fstat-no" title="function not covered" >(options) {</span>
+<span class="cstat-no" title="statement not covered" >    const jsdocOptions = new JsdocOptions(options)</span>
+<span class="cstat-no" title="statement not covered" >    return jsdocApi.explain(jsdocOptions)</span>
   }
 &nbsp;
   /**
@@ -689,9 +691,9 @@ class JsdocToMarkdown {
    * @return {object[]}
    * @category sync
    */
-  getJsdocDataSync <span class="fstat-no" title="function not covered">(options) {</span>
-<span class="cstat-no" title="statement not covered">    const jsdocOptions = new JsdocOptions(options)</span>
-<span class="cstat-no" title="statement not covered">    return jsdocApi.explainSync(jsdocOptions)</span>
+  getJsdocDataSync <span class="fstat-no" title="function not covered" >(options) {</span>
+<span class="cstat-no" title="statement not covered" >    const jsdocOptions = new JsdocOptions(options)</span>
+<span class="cstat-no" title="statement not covered" >    return jsdocApi.explainSync(jsdocOptions)</span>
   }
 &nbsp;
   /**
@@ -699,8 +701,8 @@ class JsdocToMarkdown {
    * @returns {Promise}
    * @category async
    */
-  clear <span class="fstat-no" title="function not covered">() {</span>
-<span class="cstat-no" title="statement not covered">    return jsdocApi.cache.clear().then(() =&gt; <span class="cstat-no" title="statement not covered">dmd.cache.clear())</span></span>
+  clear <span class="fstat-no" title="function not covered" >() {</span>
+<span class="cstat-no" title="statement not covered" >    return jsdocApi.cache.clear().then(() =&gt; <span class="cstat-no" title="statement not covered" >dmd.cache.clear())</span></span>
   }
 &nbsp;
   /**
@@ -709,22 +711,22 @@ class JsdocToMarkdown {
    * @returns {object}
    * @category async
    */
-  getNamepaths <span class="fstat-no" title="function not covered">(options) {</span>
-<span class="cstat-no" title="statement not covered">    return this.getTemplateData(options)</span>
+  getNamepaths <span class="fstat-no" title="function not covered" >(options) {</span>
+<span class="cstat-no" title="statement not covered" >    return this.getTemplateData(options)</span>
       .then(data =&gt; {
-<span class="cstat-no" title="statement not covered">        const namepaths = {}</span>
-<span class="cstat-no" title="statement not covered">        const kinds = [</span>
+<span class="cstat-no" title="statement not covered" >        const namepaths = {}</span>
+<span class="cstat-no" title="statement not covered" >        const kinds = [</span>
           'module', 'class', 'constructor', 'mixin', 'member',
           'namespace', 'constant', 'function', 'event', 'typedef', 'external'
         ]
-<span class="cstat-no" title="statement not covered">        kinds.forEach(kind =&gt; {</span>
-<span class="cstat-no" title="statement not covered">          namepaths[kind] = data</span>
+<span class="cstat-no" title="statement not covered" >        kinds.forEach(kind =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >          namepaths[kind] = data</span>
             .filter(identifier =&gt; {
-<span class="cstat-no" title="statement not covered">              return identifier.kind === kind</span>
+<span class="cstat-no" title="statement not covered" >              return identifier.kind === kind</span>
             })
-            .map(identifier =&gt; <span class="cstat-no" title="statement not covered">identifier.longname)</span>
+            .map(identifier =&gt; <span class="cstat-no" title="statement not covered" >identifier.longname)</span>
         })
-<span class="cstat-no" title="statement not covered">        return namepaths</span>
+<span class="cstat-no" title="statement not covered" >        return namepaths</span>
       })
   }
 }
@@ -732,11 +734,10 @@ class JsdocToMarkdown {
 module.exports = new (stats(JsdocToMarkdown, require('../package').version))()
 &nbsp;
 &nbsp;</pre></td></tr>
-</tbody></table></pre>
+</table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 20:16:02 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 18 2017 21:08:22 GMT+0000 (UTC)</div>
 </div>
-
-
-</body></html>
+</body>
+</html>
