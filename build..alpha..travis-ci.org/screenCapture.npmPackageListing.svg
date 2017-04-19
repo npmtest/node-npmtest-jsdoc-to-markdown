@@ -1,21 +1,21 @@
 <svg height="286" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="286" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-18 21:09:30 +0000    42324 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-18 21:09:30 +0000     1103 bytes  LICENSE</tspan>
-<tspan x="10" y="58">  2.  2017-04-18 21:09:30 +0000     2190 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-18 21:09:30 +0000     2548 bytes  bin/cli.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-18 21:09:30 +0000     9969 bytes  docs/API.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-18 21:09:30 +0000       57 bytes  jsdoc2md/API.hbs</tspan>
-<tspan x="10" y="122">  6.  2017-04-18 21:09:30 +0000     7360 bytes  lib/cli-data.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-18 21:09:30 +0000      226 bytes  lib/dmd-options.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-18 21:09:30 +0000      197 bytes  lib/jsdoc-options.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-18 21:09:30 +0000     8374 bytes  lib/jsdoc-to-markdown.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-18 21:09:30 +0000     3178 bytes  package.json</tspan>
-<tspan x="10" y="202"> 11.  2017-04-18 21:09:30 +0000     4109 bytes  test/async.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-18 21:09:30 +0000      925 bytes  test/cli.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-18 21:09:30 +0000      109 bytes  test/fixture/ignore.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-18 21:09:30 +0000       74 bytes  test/fixture/params.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-18 21:09:30 +0000     1905 bytes  test/sync.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 05:59:28 +0000    42324 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 05:59:28 +0000     1103 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 05:59:28 +0000     2190 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 05:59:28 +0000     2548 bytes  bin/cli.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 05:59:28 +0000     9969 bytes  docs/API.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 05:59:28 +0000       57 bytes  jsdoc2md/API.hbs</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 05:59:28 +0000     7360 bytes  lib/cli-data.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 05:59:28 +0000      226 bytes  lib/dmd-options.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 05:59:28 +0000      197 bytes  lib/jsdoc-options.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 05:59:28 +0000     8374 bytes  lib/jsdoc-to-markdown.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 05:59:28 +0000     3178 bytes  package.json</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 05:59:28 +0000     4109 bytes  test/async.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 05:59:28 +0000      925 bytes  test/cli.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 05:59:28 +0000      109 bytes  test/fixture/ignore.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 05:59:28 +0000       74 bytes  test/fixture/params.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 05:59:28 +0000     1905 bytes  test/sync.js</tspan>
 </text>
 </svg>
